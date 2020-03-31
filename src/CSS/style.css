@@ -1,0 +1,18 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 600px 100px;
+}
+
+.menu {
+    background-color: gray;
+}
+
+.content {
+    background-color: black;
+}
+
+.footer {
+    background-color: gray;
+}
