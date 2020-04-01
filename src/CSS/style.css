@@ -21,7 +21,7 @@ header {
     position: fixed;
 }
 h1 {
-    color: white;
+    color: black;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
 }
@@ -31,7 +31,7 @@ background-image: red;
 }
 
 strong {
-    color: white;
+    color: black;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -154,7 +154,7 @@ p {
     /* align-items: center; */
     /* flex-direction: column; */
     font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
+    color: black;
     padding-top: 50px;
 }
 
@@ -175,7 +175,7 @@ p {
 
 #send-btn {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: white;
+    color: black;
 }
 footer {
     display: flex;
