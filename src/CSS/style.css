@@ -18,6 +18,17 @@ header {
     position: fixed;
 }
 
+#moth {
+    padding-top: 10px;
+    width: 50px;
+    height: 28px;
+}
+#branding {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
 ul {
     width: 100%;
     display: flex;
@@ -81,10 +92,14 @@ p {
     padding-top: 105px;
     padding-bottom: 110px;
     padding-left: 10px;
-    padding-right: 10px; 
+    padding-right: 10px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+}
+
+#blog {
+
 }
 
 .p_image {
@@ -95,13 +110,41 @@ p {
 }
 
 /*********************************/
+
+.contact-section {
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    font-family: sans-serif;
+    color: white;
+}
+
+.contact-form {
+    overflow: hidden;
+}
+
+.contact-form-text {
+    font-family: sans-serif;
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    /* outline: none; */
+    /* background: grey; */
+}
+
+#send-btn {
+    font-family: sans-serif;
+    color: white;
+}
 footer {
     display: flex;
     background-color: gray;
     height: 100px;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
