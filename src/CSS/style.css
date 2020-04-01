@@ -22,7 +22,7 @@ header {
 }
 h1 {
     color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ background-image: red;
 
 strong {
     color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
 }
 
 #moth {
@@ -66,7 +66,7 @@ a {
 
 #logo {
     /* align-items: center; */
-    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Amatic SC', cursive; */
     line-height: 90%;
     font-size: 50px;
     color: white;
@@ -75,7 +75,7 @@ a {
 
 .menu {
     /* padding: 0px 20px; */
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     font-size: 20px;
 }
 .menu:hover a:hover {
@@ -111,7 +111,7 @@ a:hover {
 p {
     background-color: black;
     /* padding: 10px 100px; */
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif */
     color: white;
     text-align: left;
 }
@@ -153,7 +153,7 @@ p {
     /* display: flex; */
     /* align-items: center; */
     /* flex-direction: column; */
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     color: white;
     padding-top: 50px;
 }
@@ -163,7 +163,7 @@ p {
 }
 
 .contact-form-text {
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     display: block;
     box-sizing: border-box;
     width:100%;
@@ -174,7 +174,7 @@ p {
 }
 
 #send-btn {
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     color: white;
 }
 footer {
