@@ -165,6 +165,13 @@ p {
     padding-top: 50px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .contact-form {
     overflow: hidden;
 }
@@ -179,11 +186,21 @@ p {
     /* outline: none; */
     /* background: grey; */
 }
-
-#send-btn {
+button {
+    width: 50px;
+    text-align: center;
+    background-color: gray;
+    margin: 10px 10px;
+    font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
 }
+
+.contact-section form button {
+    display: flex;
+    align-content: center;
+}
+
 footer {
     display: flex;
     background-color: gray;
@@ -221,9 +238,11 @@ i:hover {
         flex-direction: row;
         justify-content: space-evenly;
     }
+    
     .portfolio_image {
         width: 25%;
     }
+
     #blog {
         display: flex;
         flex-direction: column;
@@ -237,6 +256,33 @@ i:hover {
     }
     #blog p {
         padding-top: 10px;
+        max-width: 800px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .contact-section {
+        min-width: 700px;
+        align-self: center;
+    }
+    .contact-form-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section_contact_page{
+        display: flex;
+        flex-direction: column;
+    }
+    #resume {
+        display: flex;
+        justify-content: center;
+       
+    }
+    #resume p {
+        padding: 0px 20px;
+    }
+    #resume i {
+        padding: 0px 20px;
     }
 }
 
