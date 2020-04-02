@@ -30,6 +30,13 @@ h1 {
 background-image: red;
 }
 
+#index_image {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    object-fit: cover;
+}
+
 strong {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -183,7 +190,7 @@ footer {
     height: 100px;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -200,5 +207,22 @@ i {
 
 i:hover {
     color: white;
+}
+
+@media screen and (min-width: 768px) {
+    #portfolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #portfolio div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .portfolio_image {
+        width: 25%;
+    }
 }
 
