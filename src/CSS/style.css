@@ -224,5 +224,19 @@ i:hover {
     .portfolio_image {
         width: 25%;
     }
+    #blog {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .blog_image {
+        padding-right: 20px;
+        padding-bottom: 50px;
+        float: left;
+        width:25%;
+    }
+    #blog p {
+        padding-top: 10px;
+    }
 }
 
