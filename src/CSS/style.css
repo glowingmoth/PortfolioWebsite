@@ -104,6 +104,10 @@ section {
     /* height: calc(100vh - 200px); */
 }
 
+#skills_body {
+    height: 100vh;
+}
+
 
 #resume {
     display: flex;
