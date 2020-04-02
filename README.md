@@ -14,6 +14,8 @@ The website has a basic structure and layout where the user can simple choose fr
 <br>
 
 **Screenshots**
+![Screen1](docs/GlowingMoth_WebsitScreen1.png)
+![Screen2](docs/GlowingMoth_WebsiteScreen2.png)
 <br>
 
 **Target Audience**
